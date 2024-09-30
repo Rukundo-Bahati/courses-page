@@ -4,13 +4,14 @@
 
 .heading {
   text-align: center;
-  font-size: 20px;
-  background-color: #7b68ee;
-  padding: 20px;
+  font-size: 14px;
+  background: linear-gradient(dodgerblue, rgb(0, 47, 128));
+  padding: 1rem;
+  text-align: center;
   margin-top: 0;
   color: white;
   border-bottom: white;
-  width: 96%;
+  width: 100%;
   margin: auto;
 }
 
@@ -18,7 +19,11 @@ body {
   width: 100vw;
   margin: auto;
   overflow-x: hidden;
- 
+}
+
+iframe {
+  margin-top: 1.2rem;
+  border-radius: 12px;
 }
 
 ul {
@@ -39,14 +44,15 @@ p {
 
 .sidebar {
     width: 200px;
-    height: 100vh;
-    background-color: #7b68ee;
+    height: 94.7vh;
+    background: linear-gradient(dodgerblue, rgb(0, 47, 128));
     padding: 20px;
     color: white;
     font-size: 17px;
     font-weight: 400;
     display: flex;
     justify-content: center;
+    /* margin-top: 6.3rem; */
     align-items: center;
 }
 
@@ -62,6 +68,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    border-radius: 12px;
 }
 
 h2 {
